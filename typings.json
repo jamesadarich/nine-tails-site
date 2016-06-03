@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "marionette": "registry:dt/marionette#0.0.0+20160317120654",
+    "node": "registry:dt/node#6.0.0+20160602155235"
+  }
+}

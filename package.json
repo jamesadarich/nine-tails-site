@@ -1,0 +1,29 @@
+{
+  "name": "nine-tails-site",
+  "version": "1.0.0",
+  "description": "Website to display capabilities and how to use nine-tails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrichford/nine-tails-site.git"
+  },
+  "author": "James Richford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesrichford/nine-tails-site/issues"
+  },
+  "homepage": "https://github.com/jamesrichford/nine-tails-site#readme",
+  "dependencies": {
+    "backbone.marionette": "^2.4.7",
+    "express": "^4.13.4",
+    "jquery": "^2.2.4",
+    "nine-tails": "^0.10.0",
+    "node-sass": "^3.7.0",
+    "requirejs": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}

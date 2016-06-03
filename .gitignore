@@ -1,0 +1,10 @@
+#NPM
+node_modules
+
+#compiled site
+public/css
+public/js
+
+#TypeScript
+**/*.js
+**/*.js.map

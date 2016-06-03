@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+        "target": "es3",
+        "module": "umd",
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "sourceMap": true
+    },
+    "buildOnSave": true,
+    "compileOnSave": true,
+    "filesGlob": [
+        "./public/**/*.ts",
+        "./index.ts",
+        "./typings/main.d.ts"
+    ],
+    "files": [
+        "./public/require.config.ts",
+        "./public/scripts/app.ts",
+        "./public/scripts/demo.ts",
+        "./public/scripts/models/custom-style.ts",
+        "./public/scripts/router.ts",
+        "./public/scripts/start.ts",
+        "./public/scripts/theme.ts",
+        "./public/scripts/views/alpha-color-set.ts",
+        "./public/scripts/views/app-shell.ts",
+        "./public/scripts/views/free-text-color-set.ts",
+        "./public/scripts/views/hsl-color-set.ts",
+        "./public/scripts/views/length-set.ts",
+        "./public/scripts/views/pages/api/api.ts",
+        "./public/scripts/views/pages/demos/color-section.ts",
+        "./public/scripts/views/pages/demos/custom-section.ts",
+        "./public/scripts/views/pages/demos/custom-style-list.ts",
+        "./public/scripts/views/pages/demos/custom-style.ts",
+        "./public/scripts/views/pages/demos/demos.ts",
+        "./public/scripts/views/pages/demos/pallette.ts",
+        "./public/scripts/views/pages/demos/position-section.ts",
+        "./public/scripts/views/pages/demos/rave-panel.ts",
+        "./public/scripts/views/pages/demos/size-section.ts",
+        "./public/scripts/views/pages/demos/spacing-section.ts",
+        "./public/scripts/views/pages/demos/text-section.ts",
+        "./public/scripts/views/pages/demos/theming-section.ts",
+        "./public/scripts/views/pages/home/home.ts",
+        "./public/scripts/views/rgb-color-set.ts",
+        "./public/scripts/views/site-menu.ts",
+        "./index.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
